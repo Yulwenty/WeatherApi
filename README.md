@@ -13,10 +13,12 @@ Created with below technologies:
 7. Mock  
 
 **Steps to run:**    
-1.Build and Run this solution using “WeatherApi” Profiles. It will open https://localhost:5001.   
+1.Set **WeatherApi** project as StartupProject. Build and Run this solution using “WeatherApi” Profiles. It will open https://localhost:5001.   
 Swagger page will automatically shown.    
 ApiKey is NpGx1qn-32pNgwT-stBmK19-weCOP-kPBcx90 .   
 It’s stored on appsetting.json with keyname: ApiKey  
 
-2.Build & run  “WeatherForecast” web application to consume web api (use IISExpress profile).   
-If you use different port than 5001 for web api, please set your new port  on appsetting.json with keyname: WeatherForecastClientBaseUrl  
+2.Set **WeatherForecast** project as StartupProject. Build & run  “WeatherForecast” web application to consume web api (use IISExpress profile).   
+If you use different port than 5001 for **WeatherApi**, please set your new port  on appsetting.json with keyname: WeatherForecastClientBaseUrl 
+
+
